@@ -1,0 +1,71 @@
+O QUE É UM COMMIT: "Um commit no contexto destes sistemas de controle de versão refere-se a submeter as últimas alterações do código fonte ao repositório e fazer com que estas alterações se tornem parte da versão principal (head) do repositório. Deste modo, quando outros usuários fazem um UPDATE ou um checkout do repositório, eles receberão a versão enviada mais recentemente, a menos que eles especifiquem que querem recuperar uma versão anterior do código fonte no repositório."
+
+O QUE É UM REPOSITÓRIO: é uma coleção de commits, é uma grande caixa onde fica guardado todas as alterações, commits, feitas.
+
+COMANDOS PARA O  GIT
+--> git init <-- Comando para eu criar os metados do Git para transformar aquele diretório em um repositório do Git
+
+--> git status <-- 
+
+--> git clone <-- serve para clonar um repositório no Git, tenho que ter o link do repositório no Git
+
+--> git log <-- serve para eu ver os commits do meu repositório, com ele posso ver o ID, o nome dos commit e data e hora da alteração e saber quem fez a alteração.
+
+--> git diff <-- serve para comprar os commit, no linux é um comando que também serve para comparar. Aparece linhas coloridas que foram apagadas e colocadas.
+
+--> git checkout (ID do commit) <-- serve para voltar versões anteriores dos meus commit para eu verificar bugs, por exemplo.
+
+<-------------------------------------------->
+
+1 - Como a visualização de uma diferença entre duas versões de um arquivo ajudou você a ver o erro que foi introduzido?
+RESPOSTA: Comparando as linhas ajuda a dicenir a diferença entre as linhas igual e as linhas que foram alteradas.
+
+2 - Um acesso fácil a todo o histórico de um arquivo, faria de você um Programador mais eficiente a longo prazo?
+RESPOSTA: Acredito que sim, eu poderia voltar facilmente se fizer algo errado ou ver como era bem antes para compreender melhor o que está agora.
+
+3 -Quais você acha que são os prós e contras de escolher manualmente quando criar um Commit(salvamento do estado), como você faz no Git, versus ter versões automaticamente salvas, como o Google Docs faz?
+RESPOSTA: o pró de ser como google é que vocẽ não perde nada, mesmo aconteça um acidente, tipo a maquina dar pau e vc não ter salvo, acredito que a desvantagem disso é o volume de dados que cada salvamento gera, já que ele salva todo segundo. Acho que não tem nem uma vantagem do Git em ralação a salvar, o óbvio é que ele vai salvar só quando eu pedir, assim não ocupa muito espaço. Na verdade um contra da forma do google docs seria a quantidade de vezes salva, seria difísil para mim retornar a uma versão que desejo, já que seriam muuuitas verções.
+
+4 - Por que você acha que alguns sistemas de controle de versões, como o Git, permitem salvar múltiplos Arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+RESPOSTA: Pq quando você trabalha com o Git vc tem tendência de trabalhar com mais de um arquivo sendo editado ao mesmo tempo e no google docs é um por vez.
+
+5 - Como você pode usar os comandos git log e git diff para ver o histórico de arquivos?
+RESPOSTA: No terminal o no Dash do Git, eu acho, como como usar, em ĺinhas de código.
+
+6 - Como o uso do controle de versão pode torná-lo mais confiante para fazer mudanças que Poderia quebrar alguma coisa?
+RESPOSTA: Pq se eu fizer algo errado na versão atual eu tenho uma facilidade para retornar ao estado anterior.
+
+7 - Agora que você configurou seu espaço de trabalho, o que você quer tentar usar o Git?
+RESPOSTA: Quero fazer versões para um projeto próprio, e aprender mais e mais usar arquivos com linhas de comando.
+
+<------------------------------------------------------------------->
+
+Como ter fácil acesso a todo o histórico de um arquivo pode torná-lo um programador mais eficiente no longo prazo?
+Compreender melhor como era o projeto, fazer melhorias olhando o passado do projeto. Conhecimento sobre o projeto.
+
+<---------------------------------------------->
+
+Qual o tamanho de um commit?
+Um commit, ponto de salvamento, deve ser to tamanho de um ponto lógico, quando você passar para outra lógica dentro do script é pq deve ser outro commit
+
+<------------------------------------------------>
+
+Na sua opinião, quais são os prós e contras de escolher manualmente quando criar um commit, como ocorre no Git, v. o salvamento automático de versões, como no Google Docs
+RESPOSTA: OS pŕos de escolher manualmente é que eu consigo uma oraganização lógica, de forma organizada conforme meu pensamento lógico, a desvantagem é que posso esquecer.
+
+<------------------------------------------->
+
+Por que você acha que alguns sistemas de controle de versão, como o Git, permitem salvar vários arquivos em um commit, enquanto outros, como o Google Docs, tratam cada arquivo separadamente?
+RESPOSTA: Acho que é pq arquivos de programação podem ter relação com outros arquivos, assim, quando faço um commit de uma alteração, fica claro a separação que naquele commit foi corrigido algo, mesmo se essa correção envolveu mais de um arquivo.
+
+<------------------------------------------->
+
+De que modo o controle de versão pode dar a você mais segurança para fazer alterações que podem danificar algo?
+RESPOSTA: Com o controle de versão posso mudar alguma coisa e ter certeza de que se tiver errado posso facilmente voltar a versão anterior
+
+<------------------------------------------->
+
+Agora que você já configurou a sua área de trabalho, você quer usar o Git para quê?
+RESPOSTA: Usar para estudos e gerenciar um projeto próprio também para aprender mais sobre o Git
+
+<------------------------------------------->
