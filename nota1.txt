@@ -1,0 +1,13 @@
+O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
+Ele cria os metados qua vai gurdar todas as informações para o Git
+
+Como a área de teste é diferente do diretório de trabalho e do repositório?
+Qual o valor que você acha que oferece?
+Teste eu posso fazer testes, de trabalho é para gurdar o meu próprio trabalho que vai virar um repositorio
+
+Como você pode usar a área de teste para garantir que você tenha um commit por lógica mudança?
+EU fazer um comit a cada teste, por exemplo.
+
+Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
+A área de preparação é onde fica os meus arquivos que eu "git add" para enviar para meu repositório. Eu também posso tirar um arquivo
+com o comando "git reset". A área de trabalho é onde fica os arquivos que eu trabalho na minha máquina. O valor dele é exencial para eu poder preparar o meu comit para o meu repositório no Git.
