@@ -12,3 +12,6 @@ EU fazer um comit a cada teste, por exemplo.
 Em que se difere a área de preparação do diretório de trabalho e do repositório? Qual valor você acha que ela oferece?
 A área de preparação é onde fica os meus arquivos que eu "git add" para enviar para meu repositório. Eu também posso tirar um arquivo
 com o comando "git reset". A área de trabalho é onde fica os arquivos que eu trabalho na minha máquina. O valor dele é exencial para eu poder preparar o meu comit para o meu repositório no Git.
+
+Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
+Posso usar a área de preparação com o diff para paraa poder garantir apenas uma mudança lógica por vez.

@@ -26,6 +26,7 @@ COMANDOS PARA O  GIT
 	git diff --hard serve para descartar todas as alterações no diretório de trabalho ou na área de preparação	
 
 --> git checkout (ID do commit) <-- serve para voltar versões anteriores dos meus commit para eu verificar bugs, por exemplo.
+	git checkout master  Volta os repositórios como estão no meu repositório online
 
 <-------------------------------------------->
 
