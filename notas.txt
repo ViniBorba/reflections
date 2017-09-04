@@ -1,3 +1,4 @@
+
 O QUE É UM COMMIT: "Um commit no contexto destes sistemas de controle de versão refere-se a submeter as últimas alterações do código fonte ao repositório e fazer com que estas alterações se tornem parte da versão principal (head) do repositório. Deste modo, quando outros usuários fazem um UPDATE ou um checkout do repositório, eles receberão a versão enviada mais recentemente, a menos que eles especifiquem que querem recuperar uma versão anterior do código fonte no repositório."
 
 O QUE É UM REPOSITÓRIO: é uma coleção de commits, é uma grande caixa onde fica guardado todas as alterações, commits, feitas.
