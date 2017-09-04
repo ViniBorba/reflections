@@ -18,3 +18,6 @@ Posso usar a área de preparação com o diff para paraa poder garantir apenas u
 
 Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
 Situações quando vou criar algo expremental para meu projeto ou então para manter um branch central, assim poderia trabalhar com várias pessoas, cada uma com o nome do seu branch e fazendo suas alterações.
+
+Como os diagramas ajudam a visualizar a estrutura de branches?
+Os branches são como linhas diferentes para o o tempo, etão eu poder visualizar as possibilidades da minha linha do tempo principal, branch master, facilita para eu poder compreender o desenvolvimento do meu projeto.
