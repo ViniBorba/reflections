@@ -3,15 +3,26 @@ O QUE É UM COMMIT: "Um commit no contexto destes sistemas de controle de versã
 O QUE É UM REPOSITÓRIO: é uma coleção de commits, é uma grande caixa onde fica guardado todas as alterações, commits, feitas.
 
 COMANDOS PARA O  GIT
---> git init <-- Comando para eu criar os metados do Git para transformar aquele diretório em um repositório do Git
+--> git config <-- --global user.email "you@example.com"
+	git config --global user.name "Your Name"
 
---> git status <-- 
+--> git init <-- Comando para eu criar os metadados(cria um repositorio) do Git para transformar aquele diretório em um repositório do Git
+
+--> git add <-- adiciono um arquivo para ser comitado da área de transferẽncia no meu repositório
+
+--> git status <-- Comando que mostra o status da minha página atual mostrando o que já para o repositorio eo que está em transição para ele.
+
+--> git reset <-- retira um arquivo da área de transferência para ser comitado
+
 
 --> git clone <-- serve para clonar um repositório no Git, tenho que ter o link do repositório no Git
 
---> git log <-- serve para eu ver os commits do meu repositório, com ele posso ver o ID, o nome dos commit e data e hora da alteração e saber quem fez a alteração.
+--> git log <-- serve para eu ver os commits do meu repositório, com ele posso ver o ID, o nome dos commit e data e hora da alteração e saber quem fez 		a alteração.
 
---> git diff <-- serve para comprar os commit, no linux é um comando que também serve para comparar. Aparece linhas coloridas que foram apagadas e colocadas.
+--> git diff <-- serve para comprar os commit, no linux é um comando que também serve para comparar. Aparece linhas coloridas que foram apagadas e 
+	colocadas.
+	git diff --staged serve para comprar os arquivos da minha área de trabalho e as da área de transição do commit
+	git diff --hard serve para descartar todas as alterações no diretório de trabalho ou na área de preparação	
 
 --> git checkout (ID do commit) <-- serve para voltar versões anteriores dos meus commit para eu verificar bugs, por exemplo.
 
@@ -69,3 +80,5 @@ Agora que você já configurou a sua área de trabalho, você quer usar o Git pa
 RESPOSTA: Usar para estudos e gerenciar um projeto próprio também para aprender mais sobre o Git
 
 <------------------------------------------->
+
+
