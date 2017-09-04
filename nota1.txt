@@ -15,3 +15,6 @@ com o comando "git reset". A área de trabalho é onde fica os arquivos que eu t
 
 Como você pode usar a área de preparação para garantir que tenha um commit por alteração lógica?
 Posso usar a área de preparação com o diff para paraa poder garantir apenas uma mudança lógica por vez.
+
+Quais são algumas das situações em que branches seriam úteis para manter seu histórico organizado? Como branches ajudariam?
+Situações quando vou criar algo expremental para meu projeto ou então para manter um branch central, assim poderia trabalhar com várias pessoas, cada uma com o nome do seu branch e fazendo suas alterações.
