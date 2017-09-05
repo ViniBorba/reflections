@@ -5,6 +5,8 @@ O QUE É UM REPOSITÓRIO: é uma coleção de commits, é uma grande caixa onde 
 
 O QUE É UM BRANCH: branch é uma divisão na linha do meu projeto, é uma segunda opção, ou terceira..., é um ponto onde meu sistema principal vai mudar e eu quero exprementar algo. Também serve para quando u fizer um checkou antigo e fizer uma alteração neste checkout antigo e salvar, se eu não criar um branch para esse novo commit deste commit antigo (que fiz pelo checkout), ele vai ficar perdido na linha do tempo, pois quando eu voltar para o master ele sinmplemsnete não vai aparecer. 
 
+O QUE É REMOTE: é a pasta que crio para enviar o GitHub por push, eu dou um nome a aela e informo o link no GitHub que ela vai ser armazenada
+
 COMANDOS PARA O  GIT
 --> git config <-- --global user.email "you@example.com"
 	git config --global user.name "Your Name"
@@ -13,10 +15,11 @@ COMANDOS PARA O  GIT
 
 --> git add <-- adiciono um arquivo para ser comitado da área de transferẽncia no meu repositório
 
---> git status <-- Comando que mostra o status da minha página atual mostrando o que já para o repositorio eo que está em transição para ele.
+--> git status <-- Comando que mostra o status da minha página atual mostrando o que já está para o repositorio e o que está em transição para ele.
 
 --> git reset <-- retira um arquivo da área de transferência para ser comitado
 
+--> git commit <-- cria um comit com os arquivos que eu coloquei com o git add
 
 --> git clone <-- serve para clonar um repositório no Git, tenho que ter o link do repositório no Git
 
@@ -24,18 +27,30 @@ COMANDOS PARA O  GIT
 
 --> git diff <-- serve para comprar os commit, no linux é um comando que também serve para comparar. Aparece linhas coloridas que foram apagadas e 
 	colocadas.
-	git diff --staged serve para comprar os arquivos da minha área de trabalho e as da área de transição do commit
+	git diff --staged serve para comprar os arquivos da minha área de trabalho e as da área de transição do commit que eu coloquei 
 	git diff --hard serve para descartar todas as alterações no diretório de trabalho ou na área de preparação	
+
+--> git show <-- comando para comprar, como o git diff, mas esse comando comprara um commit com seu commit pai, preciso colocar só um ID commit
 
 --> git checkout (ID do commit) <-- serve para voltar versões anteriores dos meus commit para eu verificar bugs, por exemplo.
 	git checkout também pode ser para mudar entre os branch que eu tenho no meu projeto
 
 --> git branch <-- serve para ver os meus branch, também para criar um branch
 	git branch novo-branch
-	git checkout -b novo-branch-nome
+	git branch dash d nome-branch exclui o label (rotulo) do branch, comando para usar depois de criar um merge(união de dois branche) e quiser excluir um branch, ele não exclui os commit do branch, apenas o rotulo deste branch
 
---> git log --graph --oneline nome-do-branches <-- serve para ver a linha do tempo com os dois ou mais branches criados no meu projeto 
+--> git log --graph --oneline nome-do-branches <-- serve para ver a linha do tempo com os dois ou mais branches criados no meu projeto
 
+--> git merge <-- git merge branche1 branche2 - comando para unir dois branches  
+	git checkout -b novo-branch-nome cria e muda para um branch novo quando vou fazer um commit
+	git merge --abort 
+
+--> git remote <-- comando para criar o remote do meu repositório local para enviar para o repositório do GitHub
+	git remote add 'nome do remoto' 'link no GitHub' cria um novo remote
+	git remote -v mostra os remoto que eu criei e os links, todos no meu Git local
+
+--> git push <-- comando para enviar o meu remote para o GitHub, 
+	git push 'nome do remote' 'nome do branch' geralmente é o branch master
 <-------------------------------------------->
 
 1 - Como a visualização de uma diferença entre duas versões de um arquivo ajudou você a ver o erro que foi introduzido?

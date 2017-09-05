@@ -21,3 +21,9 @@ Situações quando vou criar algo expremental para meu projeto ou então para ma
 
 Como os diagramas ajudam a visualizar a estrutura de branches?
 Os branches são como linhas diferentes para o o tempo, etão eu poder visualizar as possibilidades da minha linha do tempo principal, branch master, facilita para eu poder compreender o desenvolvimento do meu projeto.
+
+Qual é o resultado da mesclagem de dois branches? Por que o representamos no diagrama dessa forma?
+O resultado da mesclagem de dois branches é um branche novo. Ele é uma fusão de dois commits que foram separados e dois branches momentos atrás.
+
+Quais são os prós e contras da mesclagem automática do Git v. sempre fazer mesclagens manualmente?
+Rapidez, manualmente poderia fazer sem conflitos, mas ia demorar mais.
