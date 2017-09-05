@@ -5,7 +5,9 @@ O QUE É UM REPOSITÓRIO: é uma coleção de commits, é uma grande caixa onde 
 
 O QUE É UM BRANCH: branch é uma divisão na linha do meu projeto, é uma segunda opção, ou terceira..., é um ponto onde meu sistema principal vai mudar e eu quero exprementar algo. Também serve para quando u fizer um checkou antigo e fizer uma alteração neste checkout antigo e salvar, se eu não criar um branch para esse novo commit deste commit antigo (que fiz pelo checkout), ele vai ficar perdido na linha do tempo, pois quando eu voltar para o master ele sinmplemsnete não vai aparecer. 
 
-O QUE É REMOTE: é a pasta que crio para enviar o GitHub por push, eu dou um nome a aela e informo o link no GitHub que ela vai ser armazenada
+O QUE É REMOTE: é a pasta que crio para enviar para o GitHub por push, eu dou um nome a ela e informo o link no GitHub que ela vai ser armazenada
+
+O QUE É UM FORK (bifurcação): 
 
 COMANDOS PARA O  GIT
 --> git config <-- --global user.email "you@example.com"
@@ -51,7 +53,12 @@ COMANDOS PARA O  GIT
 
 --> git push <-- comando para enviar o meu remote para o GitHub, 
 	git push 'nome do remote' 'nome do branch' geralmente é o branch master
+
+--> git pull <-- comando para sincronizar os repositórios do Git para meu repositório local.
+	git pull 'nome do remote' 'nome do brunch'
 <-------------------------------------------->
+
+Algo importante, o Git é um sistema de versão, o GitHub é o site/webservice que eu utilizo para gurdar meus Git
 
 1 - Como a visualização de uma diferença entre duas versões de um arquivo ajudou você a ver o erro que foi introduzido?
 RESPOSTA: Comparando as linhas ajuda a dicenir a diferença entre as linhas igual e as linhas que foram alteradas.
