@@ -1,4 +1,3 @@
-
 O que acontece ao iniciar um repositório? Por que você precisa fazer isso?
 Ele cria os metados qua vai gurdar todas as informações para o Git
 

@@ -37,7 +37,7 @@ COMANDOS PARA O  GIT
 
 --> git branch <-- serve para ver os meus branch, também para criar um branch
 	git branch novo-branch
-	git branch dash d nome-branch exclui o label (rotulo) do branch, comando para usar depois de criar um merge(união de dois branche) e quiser excluir um branch, ele não exclui os commit do branch, apenas o rotulo deste branch
+	git branch dash -d nome-branch exclui o label (rotulo) do branch, comando para usar depois de criar um merge(união de dois branche) e quiser excluir um branch, ele não exclui os commit do branch, apenas o rotulo deste branch
 
 --> git log --graph --oneline nome-do-branches <-- serve para ver a linha do tempo com os dois ou mais branches criados no meu projeto
 
