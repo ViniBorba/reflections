@@ -6,3 +6,6 @@ Pq nem sempre quero mandar na hora que faço o commir pata o Git, as vezes quero
 
 Descreva as diferenças entre forks, clones e branches. Quando você gostaria use um em vez de outro?
 forks, ou bifurcações, é uma maneira de eu copiar um projeto que já está no GitHub. Clone é para eu clonar um repositório do GitHub e branches é uma divisão no meu projeto, como uma linha do tempo alternativa.
+
+Qual é o benefício de ter uma cópia do último estado conhecido do remote armazenado localmente?
+Remete é a "caixinha" com as informações do meu reposítório, então ele é exencial para eu sempre me manter atualizado.

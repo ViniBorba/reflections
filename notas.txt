@@ -47,7 +47,7 @@ COMANDOS PARA O  GIT
 	git checkout -b novo-branch-nome cria e muda para um branch novo quando vou fazer um commit
 	git merge --abort 
 
---> git remote <-- comando para criar o remote do meu repositório local para enviar para o repositório do GitHub
+--> git remote <-- comando para criar o remote do meu repositório (ele salva numa 'gaveta' somente um brench) local para enviar para o repositório do GitHub
 	git remote add 'nome do remoto' 'link no GitHub' cria um novo remote
 	git remote -v mostra os remoto que eu criei e os links, todos no meu Git local
 
@@ -56,6 +56,9 @@ COMANDOS PARA O  GIT
 
 --> git pull <-- comando para sincronizar os repositórios do Git para meu repositório local.
 	git pull 'nome do remote' 'nome do brunch'
+
+--> git fetch <-- comando para atualizar o remote que eu fiz ao colnar, ou seja, ele vai até o GitHub, repositório de onde fiz o clone, e vê se 
+	tem atualização, isso no caso de uma outra pessoa ter feito atualização no repositório, se tiver alteração ele atualiza o meu remote local. se eu fizer um git log ou um git status vai me mostrar as diferenças.
 <-------------------------------------------->
 
 Algo importante, o Git é um sistema de versão, o GitHub é o site/webservice que eu utilizo para gurdar meus Git
