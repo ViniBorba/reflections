@@ -12,6 +12,7 @@ O QUE É UM FORK (bifurcação):
 COMANDOS PARA O  GIT
 --> git config <-- --global user.email "you@example.com"
 	git config --global user.name "Your Name"
+	git config --global core.editor "subl -n -w" tornar o sublime editor padrão
 
 --> git init <-- Comando para eu criar os metadados(cria um repositorio) do Git para transformar aquele diretório em um repositório do Git
 
