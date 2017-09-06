@@ -5,7 +5,7 @@ O QUE É UM REPOSITÓRIO: é uma coleção de commits, é uma grande caixa onde 
 
 O QUE É UM BRANCH: branch é uma divisão na linha do meu projeto, é uma segunda opção, ou terceira..., é um ponto onde meu sistema principal vai mudar e eu quero exprementar algo. Também serve para quando u fizer um checkou antigo e fizer uma alteração neste checkout antigo e salvar, se eu não criar um branch para esse novo commit deste commit antigo (que fiz pelo checkout), ele vai ficar perdido na linha do tempo, pois quando eu voltar para o master ele sinmplemsnete não vai aparecer. 
 
-O QUE É REMOTE: é a pasta que crio para enviar para o GitHub por push, eu dou um nome a ela e informo o link no GitHub que ela vai ser armazenada
+O QUE É REMOTE: é a pasta que crio para enviar para o GitHub por push, eu dou um nome a ela e informo o link no GitHub que ela vai ser armazenada também é o nome do meu reposítório no GitHub, ou outro local é o meu repositório remoto, e o na minha m[áquina é o repositório local.
 
 O QUE É UM FORK (bifurcação): 
 
@@ -47,17 +47,20 @@ COMANDOS PARA O  GIT
 	git checkout -b novo-branch-nome cria e muda para um branch novo quando vou fazer um commit
 	git merge --abort 
 
---> git remote <-- comando para criar o remote do meu repositório (ele salva numa 'gaveta' somente um brench) local para enviar para o repositório do GitHub
+--> git remote <-- comando para criar o remote do meu repositório (ele salva numa 'gaveta' somente um brench) local para enviar para o repositório 
+	do GitHub
 	git remote add 'nome do remoto' 'link no GitHub' cria um novo remote
 	git remote -v mostra os remoto que eu criei e os links, todos no meu Git local
 
---> git push <-- comando para enviar o meu remote para o GitHub, 
+--> git pull <-- comando para sincronizar o BRANCH do GitHub para meu repositório local. Isso é usado para quando os dois repositórios 
+	estão diferentes, com commits diferentes, o git pull vai fazer um merge do commit do GitHub e do commit do meu local, que teoricamente estão dierentes, então mudara o meu branch e ficará igual o do GitHub. 
+	>git pull 'nome do remote' 'nome do brunch'
+	pull request no GitHub: crio um novo branch, commito uma mudança neste branch novo e faço push para o GitHub, no GitHub, uso o pull request com outros usuários para ver se faço merge do branch master como este novo que criei. Isso serve para trabalho em equipe, para ver se minha mudança vai fazer parte do branche master
+
+--> git push <-- comando para enviar o meu remote para o GitHub, = git fetch + git merge
 	git push 'nome do remote' 'nome do branch' geralmente é o branch master
 
---> git pull <-- comando para sincronizar os repositórios do Git para meu repositório local.
-	git pull 'nome do remote' 'nome do brunch'
-
---> git fetch <-- comando para atualizar o remote que eu fiz ao colnar, ou seja, ele vai até o GitHub, repositório de onde fiz o clone, e vê se 
+--> git fetch <-- comando para atualizar o REMOTE que eu fiz ao clonar, ou seja, ele vai até o GitHub, repositório de onde fiz o clone, e vê se 
 	tem atualização, isso no caso de uma outra pessoa ter feito atualização no repositório, se tiver alteração ele atualiza o meu remote local. se eu fizer um git log ou um git status vai me mostrar as diferenças.
 <-------------------------------------------->
 
