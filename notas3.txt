@@ -9,3 +9,7 @@ forks, ou bifurcações, é uma maneira de eu copiar um projeto que já está no
 
 Qual é o benefício de ter uma cópia do último estado conhecido do remote armazenado localmente?
 Remete é a "caixinha" com as informações do meu reposítório, então ele é exencial para eu sempre me manter atualizado.
+
+Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais difícil?
+Sem o GitHub seria dífícil colaborar em projetos de sistemas. Teria que ter uma rede menor e seria bem mais difícil alcançar mais pessoa para colaborar.
+Talvez a comunicação seria mais fácil, mas isso depende de muitas coisas. O mais difícil seria manter sempre a última versão, com certeza.
