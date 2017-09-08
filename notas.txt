@@ -93,6 +93,7 @@ COMANDOS PARA O  GIT
 	repositório de onde fiz o clone, e vê se tem atualização, isso no caso de uma outra pessoa ter 
 	feito atualização no repositório, se tiver alteração ele atualiza o meu remote local. se eu fizer
 	um git log ou um git status vai me mostrar as diferenças.
+	
 <-------------------------------------------->
 
 Algo importante, o Git é um sistema de versão, o GitHub é o site/webservice que eu utilizo para gurdar meus Git
