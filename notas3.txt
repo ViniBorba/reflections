@@ -13,3 +13,6 @@ Remete é a "caixinha" com as informações do meu reposítório, então ele é 
 Como você colaboraria sem usar Git ou GitHub? O que seria mais fácil e mais difícil?
 Sem o GitHub seria dífícil colaborar em projetos de sistemas. Teria que ter uma rede menor e seria bem mais difícil alcançar mais pessoa para colaborar.
 Talvez a comunicação seria mais fácil, mas isso depende de muitas coisas. O mais difícil seria manter sempre a última versão, com certeza.
+
+Quando você gostaria de fazer alterações em um branch separado, e não diretamente no master? Quais são os benefícios de cada abordagem?
+Acho que em um projeto maior, com mais de um colaborador, branch separados são perfeitos, assim da pra trabalhar com diferentes ideias de diferente pessoas, no mesmo projeto.
